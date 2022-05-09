@@ -1,3 +1,19 @@
-h1 {
-    color: blue;
+* {
+    border: solid red 1px;
+    text-align: center;
+}
+
+.headshot {
+    border-radius: 50%;
+}
+
+#about {
+    font-size: 20px;
+    width: 1000px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
