@@ -12,11 +12,19 @@
 
 #about {
     font-size: 25px;
-    width: 1200px;
+    width: 1200px;    padding: 5px;
+    border-radius: 5px;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-size: auto;
 }
