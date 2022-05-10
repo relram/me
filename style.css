@@ -50,7 +50,7 @@ nav {
 }
 
 .post {
-    width: 1500px;
+    width: auto;
     background-color: #2E8BC0;
     border-radius: 10px;
     color: whitesmoke;
