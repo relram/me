@@ -1,6 +1,10 @@
 * {
-        text-align: center;
-    }
+
+}
+
+#title {
+    text-align: center;
+}
 
 body {
     background-color: #b1d4e0;
@@ -37,4 +41,43 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+nav {
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.post {
+    width: 1500px;
+    background-color: #2E8BC0;
+    border-radius: 10px;
+    color: whitesmoke;
+    margin-bottom: 5px;
+
+}
+
+.postHeader {
+    height: 90px;
+    padding: 0 10px;
+}
+
+#date {
+    align-self: center;
+    margin: 5px 0 0;
+    font-size: 15px;
+}
+
+#postTitle {
+    font-size: 30px;
+    margin: 0 0;
+    padding: 10px 0 0;
+}
+
+#postContent {
+    text-align: left;
+    font-size: 20px;
+    padding: 0 10px 10px;
+    margin: 0;
 }
