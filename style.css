@@ -14,11 +14,15 @@ body {
 }
 
 .headshot {
-    border: solid #145DA0 5px;
+    border: solid #145DA0 10px;
     box-shadow: 5px;
     border-radius: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.headshot:hover {
+    border: solid white 10px;
 }
 
 #about {
