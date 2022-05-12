@@ -29,8 +29,8 @@
     font-family: RobotoBlack;
     color: white;
     line-height: .9;
-    width: 500px;
-    padding-left: 10px;
+    width: 50%;
+    padding-left: 20px;
 }
 
 #name {
@@ -40,7 +40,7 @@
     text-align: right;
     line-height: .8;
     flex: 1;
-    width: 500px;
+    width: 50%;
 }
 
 #blogLink {
@@ -100,7 +100,7 @@ nav {
 }
 
 .post {
-    width: 1200px;
+    width: 60%;
     background-color: white;
     border-radius: 10px;
     color:#08313A;
