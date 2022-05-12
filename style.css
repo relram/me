@@ -1,13 +1,54 @@
+@font-face {
+    font-family: RubikMonoOne;
+    src: url(./fonts/RubikMonoOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoBlack;
+    src: url(./fonts/Roboto-Black.ttf);
+
+}
+
 #home {
+    background-color: #08313A;
+}
+
+#blogTitle {
+    color: #5CD85A;
+    font-family: RubikMonoOne;
+    font-size: 60px;;
+    width: auto;
     text-align: center;
 }
 
-#title {
-    text-align: center;
+#aboutMe {
+    flex: 1;
+    text-align: left;
+    font-size: 32px;
+    font-family: RobotoBlack;
+    color: white;
+    line-height: .9;
+    width: 500px;
+    padding-left: 10px;
+}
+
+#name {
+    color: #5CD85A;
+    font-family: RubikMonoOne;
+    font-size: 93px;
+    text-align: right;
+    line-height: .8;
+    flex: 1;
+    width: 500px;
+}
+
+#blogLink {
+    font-family: RobotoBlack;
+    font-size: 40px;
+    color: white;
 }
 
 body {
-    background-color: #b1d4e0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +56,7 @@ body {
 }
 
 a {
-    color: #0C2D48;
+    color: #5CD85A;
 }
 
 #title {
@@ -26,11 +67,12 @@ a {
 }
 
 .headshot {
-    border: solid #145DA0 10px;
+    border: solid #5CD85A 10px;
     box-shadow: 5px;
     border-radius: 50%;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    height: 400px;
 }
 
 .headshot:hover {
@@ -48,7 +90,6 @@ a {
 .container {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 nav {
@@ -59,9 +100,9 @@ nav {
 
 .post {
     width: 1200px;
-    background-color: #2E8BC0;
+    background-color: white;
     border-radius: 10px;
-    color: whitesmoke;
+    color:#08313A;
     margin-bottom: 5px;
     font-family: Arial;
 
