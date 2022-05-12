@@ -8,6 +8,14 @@
 
 body {
     background-color: #b1d4e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    color: #0C2D48;
 }
 
 #title {
@@ -50,7 +58,7 @@ nav {
 }
 
 .post {
-    width: auto;
+    width: 1200px;
     background-color: #2E8BC0;
     border-radius: 10px;
     color: whitesmoke;
