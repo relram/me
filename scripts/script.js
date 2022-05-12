@@ -1,4 +1,4 @@
-const greet = ["Hi, ", "Hello ", "Oh, hi "];
+const greet = ["Hi, ", "Hello ", "Oh, Hi ", "Greetings, ", "Why Hello, "];
 let rand = Math.floor(Math.random()*greet.length);
 
 let randGreet = greet[rand];
