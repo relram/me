@@ -29,6 +29,7 @@
     font-family: RobotoBlack;
     color: white;
     line-height: .9;
+    padding-left: 5px;
 }
 
 #name {
@@ -39,6 +40,7 @@
     line-height: .8;
     flex: 1;
 }
+
 
 #blogLink {
     font-family: RobotoBlack;
@@ -68,7 +70,7 @@ a {
     border: solid #5CD85A 10px;
     box-shadow: 5px;
     border-radius: 50%;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 30px;
     height: 400px;
 }
