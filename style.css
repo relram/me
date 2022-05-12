@@ -9,17 +9,22 @@
 
 }
 
+@font-face {
+    font-family: Koulen;
+    src: url(./fonts/Koulen-Regular.ttf);
+}
+
 
 #home {
     background-color: #08313A;
 }
 
 #blogTitle {
-    color: #5CD85A;
-    font-family: RubikMonoOne;
-    font-size: 60px;;
-    width: auto;
+    color: white;
+    font-family: Koulen;
+    font-size: 80px;;
     text-align: center;
+    margin-bottom: 0;
 }
 
 #aboutMe {
@@ -109,12 +114,14 @@ nav {
 }
 
 .post {
-    width: 70%;
-    background-color: white;
+    width: 60%;
+    background-color:#08313A    ;
     border-radius: 10px;
-    color:#08313A;
+    color:white;
     margin-bottom: 5px;
-    font-family: Arial;
+    font-family: RobotoBlack;
+    border: solid #107869 5px;
+    border-radius: 10px;
 
 }
 
