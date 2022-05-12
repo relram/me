@@ -29,7 +29,6 @@
     font-family: RobotoBlack;
     color: white;
     line-height: .9;
-    width: 500px;
 }
 
 #name {
@@ -39,7 +38,6 @@
     text-align: right;
     line-height: .8;
     flex: 1;
-    width: 500px;
 }
 
 #blogLink {
